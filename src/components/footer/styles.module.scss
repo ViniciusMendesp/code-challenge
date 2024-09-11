@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  background-color: $background-color;
+  padding: 1.563rem;
+  position: static;
+
+  text-align: center;
+  width: 100%;
+}
+
+.footer_text {
+  color: $gray-color;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}

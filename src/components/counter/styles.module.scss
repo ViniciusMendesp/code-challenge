@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 0.313rem;
+  background-color: $background-color;
+  font-size: 0.875rem;
+  border-radius: $border-radius;
+  .button {
+    border: none;
+    color: white;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .count {
+    color: white;
+    min-width: 2.5rem;
+    text-align: center;
+  }
+}

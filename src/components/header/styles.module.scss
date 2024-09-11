@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.header {
+  background-color: $background-color;
+  border-bottom: 1px solid $secondary-color;
+  padding: 1.75rem 2.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.quantiyOfProducts {
+  color: $white-color;
+  font-size: 1.25rem;
+}

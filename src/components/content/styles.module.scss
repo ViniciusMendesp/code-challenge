@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+  margin: 11.813rem 8.531rem;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.products {
+  display: flex;
+  gap: 1.563rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 11.813rem;
+}
+
+.slider_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 100%;
+
+  button {
+    width: 25.188rem;
+  }
+
+  div {
+    width: 25.188rem;
+  }
+}

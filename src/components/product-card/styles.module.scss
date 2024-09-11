@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.card {
+  background-color: $blue-color;
+
+  padding: 1.531rem;
+  border-radius: $border-radius;
+  width: 345px;
+  height: 555px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_image {
+  border-radius: $border-radius;
+
+  background-color: $background-image;
+  width: 100%;
+  height: 258px;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.card_name {
+  color: $white-color;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.card_description {
+  color: $gray-color;
+  opacity: 0.8;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tooltip {
+  background: $secondary-color;
+  color: #fff;
+  padding: 0.313rem 0.625rem;
+  border-radius: $border-radius;
+  white-space: normal;
+  font-size: 0.75rem;
+  width: 12.5rem;
+}
+
+.price_info {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.price {
+  color: $white-color;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
