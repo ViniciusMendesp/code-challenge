@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NFT Marketplace Frontend 
+Este projeto é uma aplicação front-end para um marketplace de NFTs com funcionalidades de carrinho de compras. A aplicação foi desenvolvida utilizando Next.js, React Query, Redux, Framer, SASS, e configurada com Docker e Docker Compose para o ambiente de desenvolvimento.
 
-## Getting Started
+## Tecnologias Utilizadas
+  - [Nextjs](https://nextjs.org/)
+ - [Redux](https://redux.js.org/)
+ - [React Query](https://tanstack.com/query/v3)
+ - [Framer](https://www.framer.com/motion/)
+ - [Docker](https://www.docker.com/)
+ - [SASS](https://sass-lang.com/)
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Marketplace de NFTs com fidelidade ao design do Figma.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Carrinho de compras com gerenciamento global de estado via Redux.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sincronização de dados da API utilizando React Query.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Animações fluidas e interativas utilizando Framer.
 
-## Learn More
+Estilização modular com SASS.
 
-To learn more about Next.js, take a look at the following resources:
+## Apresentação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://github.com/user-attachments/assets/01515783-0c3c-4748-96b4-66d8667e8d6b
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
